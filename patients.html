@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/adminstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-dark fixed-top p-0 shadow" style="background-color: #225470;">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="adminDashboard.html">Hospital Management <small
+                class="text-white">Dashboard</small></a>
+    </nav>
+    <!-- Side Bar -->
+    <div class="container-fluid mb-5" style="margin-top:40px;">
+        <div class="row">
+            <nav class="col-sm-3 col-md-2 bg-light sidebar py-5
+d-print-none">
+<div class="sidebar-sticky">
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a href="index.html" class="nav-link">
+                <i class="fas fa-tachometer-alt"></i>
+                Dashboard
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="doctors.html" class="nav-link">
+                <i class="fa-solid fa-user-doctor"></i>
+                Doctors List
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="adddoctor.html" class="nav-link">
+                <i class="fa-solid fa-plus"></i>
+                Add New Doctors
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="patients.html" class="nav-link">
+                <i class="fa-solid fa-bed-pulse"></i>
+                Patient List
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="addpatient.html" class="nav-link">
+                <i class="fa-solid fa-plus"></i>
+                Add New Patient
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="adminChangePass.html" class="nav-link">
+                <i class="fas fa-key"></i>
+                Change Password
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="../logout.html" class="nav-link">
+                <i class="fas fa-sign-out-alt"></i>
+                Logout
+            </a>
+        </li>
+    </ul>
+</div>
+</nav>
+<div class="col-sm-9 mt-5">
+    <!--Table-->
+    <p class="bg-dark text-white p-2">List of Patients</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Desiese</th>
+                <th scope="col">Address</th>
+                <th scope="col">Mobile</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+           <tr>
+           <td>Khalid Saifullah</td>
+           <td>Pain in leg</td>
+           <td>Samastipur, Bihar</td>
+           <td>9128080575</td>
+            <td>
+           
+           <form action="editstudent.html" method="POST" class="d-inline">
+           <input type="hidden" name="id">
+           <button type="submit" class="btn btn-info mr-3" name="view" value="View">
+                        <i class="fas fa-pen"></i>
+                    </button>
+                    </form>
+
+                    <form method="POST" class="d-inline">
+                    <input type="hidden" name="id">
+                        <button type="submit" class="btn btn-secondary" name="delete" value="Delete">
+                        <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                 <td>Khalid Saifullah</td>
+                 <td>Pain in leg</td>
+                 <td>Samastipur, Bihar</td>
+                 <td>9128080575</td>
+                  <td>
+                 
+                 <form action="editstudent.html" method="POST" class="d-inline">
+                 <input type="hidden" name="id">
+                 <button type="submit" class="btn btn-info mr-3" name="view" value="View">
+                              <i class="fas fa-pen"></i>
+                          </button>
+                          </form>
+      
+                          <form method="POST" class="d-inline">
+                          <input type="hidden" name="id">
+                              <button type="submit" class="btn btn-secondary" name="delete" value="Delete">
+                              <i class="fas fa-trash-alt"></i>
+                              </button>
+                          </form>
+                      </td>
+                  </tr>
+                  <tr>
+                     <td>Khalid Saifullah</td>
+                     <td>Pain in leg</td>
+                     <td>Samastipur, Bihar</td>
+                     <td>9128080575</td>
+                      <td>
+                     
+                     <form action="editstudent.html" method="POST" class="d-inline">
+                     <input type="hidden" name="id">
+                     <button type="submit" class="btn btn-info mr-3" name="view" value="View">
+                                  <i class="fas fa-pen"></i>
+                              </button>
+                              </form>
+          
+                              <form method="POST" class="d-inline">
+                              <input type="hidden" name="id">
+                                  <button type="submit" class="btn btn-secondary" name="delete" value="Delete">
+                                  <i class="fas fa-trash-alt"></i>
+                                  </button>
+                              </form>
+                          </td>
+                      </tr>
+                      <tr>
+                         <td>Khalid Saifullah</td>
+                         <td>Pain in leg</td>
+                         <td>Samastipur, Bihar</td>
+                         <td>9128080575</td>
+                          <td>
+                         
+                         <form action="editstudent.html" method="POST" class="d-inline">
+                         <input type="hidden" name="id">
+                         <button type="submit" class="btn btn-info mr-3" name="view" value="View">
+                                      <i class="fas fa-pen"></i>
+                                  </button>
+                                  </form>
+              
+                                  <form method="POST" class="d-inline">
+                                  <input type="hidden" name="id">
+                                      <button type="submit" class="btn btn-secondary" name="delete" value="Delete">
+                                      <i class="fas fa-trash-alt"></i>
+                                      </button>
+                                  </form>
+                              </td>
+                          </tr>
+                          <tr>
+                             <td>Khalid Saifullah</td>
+                             <td>Pain in leg</td>
+                             <td>Samastipur, Bihar</td>
+                             <td>9128080575</td>
+                              <td>
+                             
+                             <form action="editstudent.html" method="POST" class="d-inline">
+                             <input type="hidden" name="id">
+                             <button type="submit" class="btn btn-info mr-3" name="view" value="View">
+                                          <i class="fas fa-pen"></i>
+                                      </button>
+                                      </form>
+                  
+                                      <form method="POST" class="d-inline">
+                                      <input type="hidden" name="id">
+                                          <button type="submit" class="btn btn-secondary" name="delete" value="Delete">
+                                          <i class="fas fa-trash-alt"></i>
+                                          </button>
+                                      </form>
+                                  </td>
+                              </tr>
+                              <tr>
+                                 <td>Khalid Saifullah</td>
+                                 <td>Pain in leg</td>
+                                 <td>Samastipur, Bihar</td>
+                                 <td>9128080575</td>
+                                  <td>
+                                 
+                                 <form action="editstudent.html" method="POST" class="d-inline">
+                                 <input type="hidden" name="id">
+                                 <button type="submit" class="btn btn-info mr-3" name="view" value="View">
+                                              <i class="fas fa-pen"></i>
+                                          </button>
+                                          </form>
+                      
+                                          <form method="POST" class="d-inline">
+                                          <input type="hidden" name="id">
+                                              <button type="submit" class="btn btn-secondary" name="delete" value="Delete">
+                                              <i class="fas fa-trash-alt"></i>
+                                              </button>
+                                          </form>
+                                      </td>
+                                  </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+
+<a href="./addnewstudent.html" class="btn btn-danger box">
+    <i class="fas fa-plus fa-2x"></i>
+</a>
+</div>
+</div>
+
+<footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+        data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © Designed By Khalid Saifullah
+      </div>
+    <!-- Copyright -->
+  </footer>
+
+<script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/all.min.js"></script>
+    <script type="text/javascript" src="../js/adminajaxrequest.js"></script>
+    <!-- <script type="text/javascript" src="../js/custom.js"></script> -->
+</body>
+
+</html>
